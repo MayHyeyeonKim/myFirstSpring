@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 
 
-@Repository
+//@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>(); //동시성 문제가 있을 수 있어서 요렇게 공유되는 변수일 때는 concurrent써야하지만 학습용이니 해쉬맵
