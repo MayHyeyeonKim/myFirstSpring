@@ -1,6 +1,7 @@
 package May.myFirstSpring;
 
 import May.myFirstSpring.repository.JdbcMemberRepository;
+import May.myFirstSpring.repository.JdbcTemplateMemberRepository;
 import May.myFirstSpring.repository.MemberRepository;
 //import May.myFirstSpring.repository.MemoryMemberRepository;
 import May.myFirstSpring.servics.MemberService;
@@ -28,6 +29,8 @@ public class SpringConfig {
     public MemberRepository memberRepository() {
 
 //        return new MemoryMemberRepository();
-        return new JdbcMemberRepository(dataSource);
+//        return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
+
 }

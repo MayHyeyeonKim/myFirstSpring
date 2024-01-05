@@ -40,10 +40,10 @@ class MemberServiceIntegrationTest {
 
         //given
         Member member1 = new Member();
-        member1.setName("안뇽쓰1");
+        member1.setName("안뇽쓰12");
 
         Member member2 = new Member();
-        member2.setName("안뇽쓰1");
+        member2.setName("안뇽쓰12");
 
         //when
         memberService.join(member1);
