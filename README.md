@@ -1,4 +1,4 @@
-# My First Spring Project
+# My First Spring Project - completed
 
 This project is a Spring Boot application using the embedded Tomcat server. <br/>
 After running, you can check the application by opening [http://localhost:8080](http://localhost:8080) in your web browser.
